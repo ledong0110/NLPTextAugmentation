@@ -5,7 +5,7 @@ def read(filename):
     return open(os.path.join(os.path.dirname(__file__), filename)).read()
 
 setup(
-    name='TextAugmentation',
+    name='NLPTextAugmentation',
     version=ba.__version__,
     author=ba.__author__,
     license='MIT',

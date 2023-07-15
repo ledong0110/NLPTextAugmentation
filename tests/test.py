@@ -1,9 +1,9 @@
-from TextAugmentation.MTLCombination import da_combine
-from TextAugmentation.Single import da_replaceWord, da_replaceToken, da_swap, da_reverse, da_source
-from TextAugmentation.SentenceBoundary import da_segmentation
-from TextAugmentation.Word2Vec import da_w2v_src, da_w2v_tgt
-from TextAugmentation.EDA import da_eda_src, da_eda_tgt
-from TextAugmentation.utils import Sequential
+from NLPTextAugmentation.MTLCombination import da_combine
+from NLPTextAugmentation.Single import da_replaceWord, da_replaceToken, da_swap, da_reverse, da_source
+from NLPTextAugmentation.SentenceBoundary import da_segmentation
+from NLPTextAugmentation.Word2Vec import da_w2v_src, da_w2v_tgt
+from NLPTextAugmentation.EDA import da_eda_src, da_eda_tgt
+from NLPTextAugmentation.utils import Sequential
 import pandas as pd
 import pickle
 
