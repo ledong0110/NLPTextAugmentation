@@ -1,6 +1,6 @@
 import os
 from setuptools import setup, find_packages
-from src import TextAugmentation as ba
+from src import NLPTextAugmentation as ba
 def read(filename):
     return open(os.path.join(os.path.dirname(__file__), filename)).read()
 
